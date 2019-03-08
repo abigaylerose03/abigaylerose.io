@@ -16,18 +16,16 @@ header {
     position: relative;
     border: solid 2px #EEB422;
     border-radius: 50%; 
-<<<<<<< HEAD
+
     margin-left: 640px; 
     margin-top: 110px; 
     /*bottom: -120px;
     left: 580px; */
-=======
+
     /* margin-left: 550px; 
     margin-top: 140px; */
-    bottom: -120px;
-    left: 590px;
->>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d
-
+    bottom: 10px;
+    left: 10px;
 
 }
 
@@ -143,11 +141,7 @@ header {
 
     display: none;
     position: absolute;
-<<<<<<< HEAD
     bottom: 500px;
-=======
-    bottom: 565px;
->>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d
     right: 210px;
     background-color: #FEF2E6;
     min-width: 70px;
@@ -175,11 +169,8 @@ header {
 .my-name {
     position: absolute;
     left: 15px;
-<<<<<<< HEAD
-    bottom: 673px;
-=======
-    bottom: 700px;
->>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d
+    bottom: 580px;
+
 }
 
 .my-name h3 {
@@ -232,8 +223,7 @@ header {
     text-align: center;
     padding: 10px;
     top: 393px;
-<<<<<<< HEAD
-    left: 405px;
+    left: 400px;
     /* margin-top: 100px;
     margin-left: 400px; */
 }
@@ -244,20 +234,16 @@ header {
     white-space: nowrap; /* keeps content on a single line */
     margin: 0 auto;
     letter-spacing: .15em;
-
-=======
-    left: 405px; 
 }
 
 .intro-para h3 {
->>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d
+
     font-family: 'Major Mono Display', sans-serif;
     font-size: 17px;
     font-weight: 400;
 
     color: darkslategrey;
 
-<<<<<<< HEAD
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
@@ -271,7 +257,7 @@ header {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange }
-=======
+
     overflow: hidden;
     border-right: .15em solid gold;
     white-space: nowrap;
@@ -280,14 +266,6 @@ header {
     animation:
         typing 3.5s steps(50, end) infinite,
         blink-caret .75s step-end infinite;
-    
-        
->>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d
-}
-
-@keyframes typing {
-    from {width: 0}
-    to {width: 100%}
 }
 
 /* typewriter cursor effect */
