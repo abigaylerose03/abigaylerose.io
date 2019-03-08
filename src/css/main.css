@@ -1,0 +1,197 @@
+html {
+    background-color: #ffcb2f;
+    font-size: 1em;
+
+}
+
+header {
+    background: url("marble.jpg") no-repeat;
+    height: 550px;
+
+}
+
+.container a {
+    float: right;
+
+    font-size: 16px;
+    font-family: 'Mada', sans-serif;
+
+    color: hsl(72, 7%, 75%);
+    text-align: center;
+    text-decoration: none;
+
+    padding: 14px 16px;
+
+}
+
+.container .dropbtn {
+    float: right;
+    font-size: 16px;
+    font-family: 'Mada', sans-serif;
+
+    color: hsl(72, 7%, 75%);
+    text-align: center;
+    text-decoration: none;
+
+    padding: 14px 16px;
+
+}
+
+.container a:hover {
+    color: darkslategrey;
+}
+
+.container .dropbtn:hover {
+    color: darkslategrey;
+
+}
+
+.my-name {
+    position: relative;
+    left: 23px;
+    bottom: 700px;
+}
+
+.my-name h3 {
+    font-family: "Allura", san-serif;
+    font-size: 30px;
+    color: #EEB422;
+}
+
+/* nav a {
+    display: inline;
+    float: right;
+
+    font-size: 20px;
+    font-family: 'Mada';
+    color: hsl(72, 7%, 75%);
+
+    padding: 0px 10px 0px 10px;
+    list-style-type: none;
+
+    cursor: pointer;
+}
+
+
+nav a .dropbtn {
+    display: inline;
+    float: right;
+
+    font-size: 20px;
+    font-family: 'Mada';
+    color: hsl(72, 7%, 75%);
+
+    padding: 0px 10px 0px 10px;
+    list-style-type: none;
+
+    cursor: pointer;
+}
+
+nav a {
+    color: #C2C4BB;
+} */
+
+
+
+.dropbtn {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    z-index: 1;
+
+    display: none;
+    position: absolute;
+    background-color: #FEF2E6;
+    min-width: 50px;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
+
+    margin-top: 40px;
+    margin-left: 1098px;
+
+}
+
+.dropdown-content a {
+    display: block;
+
+    float: none;
+    padding: 12px 16px;
+
+    font-family: 'Mada', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #DDD;
+}
+
+.fa {
+    border-radius: 50%;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover { opacity: 0.9; }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #7DFF1A;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+}
+
+.fa-github {
+    background: #C20081;
+    color: black;
+}
+
+.intro-para {
+    position: absolute;
+    border: solid 3px #EEB422;
+    text-align: center;
+    padding: 10px;
+    top: 393px;
+    left: 485px;
+    /* margin-top: 100px;
+    margin-left: 400px; */
+}
+
+.intro-para h3 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+
+    color: lightslategrey;
+}
+
+.show {
+    display: block;
+}
+
+footer { font-family: 'Mada', sans; }

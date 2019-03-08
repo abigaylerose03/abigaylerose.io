@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>abigayle.io</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Allura|Mada|Poiret+One" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            
+            <div class="container">
+                <nav>
+                    <a href="contact.html">Say Hello</a>
+                    <a href="resource-list.html">My Resources</a>
+
+                    <!-- the dropdown menu button part of the nav bar -->
+                    <button class="dropbtn" onclick="dropActivate();">About</button>
+                    <div class="dropdown-content" id="myDropdown">
+                    <!-- the dropdown menu's content -->
+                        <a href="skills.html">skills</a>
+                        <a href="projects.html">projects</a>
+                        <a href="bio.html">about me</a>
+                    </div>
+
+                    <a href="index.html">Home</a>
+                </nav>
+            </div>
+
+            <!-- My Round Profile Pic -->
+            <div>
+                <img class="profile-pic" src="profile-pic.JPG" alt="arp coding" width="180" height="200" />
+            </div>
+
+            <!-- Home Page Intro. Stay Woke -->
+            <div class="intro-para">
+                <h3>Coding isn't a hobby, it's a lifestyle. Stay woke.</h3>
+            </div>
+
+            <div class="mobile-intro-para">
+                <h2 style="background-color: gold; text-align: center; font-family: 'Major Mono Display'; color: white; margin-top: 110px;">Abigayle Peterson</h2>
+                <h3>Coffee to code machine.</h3>
+                <!-- The mobile nav bar -->
+                <div class="mobile-intro-items">
+                    <p>My <a href="skills.html"> skills</a></p>
+                    <p>Say <a href="contact.html">Hello!</a></p>
+                    <p>Or visit my <a href="projects.html">project</a> page!</p>
+                </div>
+
+            </div>
+
+            <!-- My name, Abby Peterson -->
+            <div class="my-name">
+                <h3>Abby Peterson</h3>
+            </div>
+        </header>
+
+        <footer>&copy; 2019
+            <a href="https://www.instagram.com/abbytes_03/?hl=en" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://github.com/abigaylerose03" class="fa fa-github"></a>
+        </footer>
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/contact-validation.js"></script>
+        <script type="text/javascript" src="js/memberEmail.js"></script>
+        <!-- <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+    </body>
+</html>

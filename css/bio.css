@@ -1,0 +1,137 @@
+html {
+    background: url("marble.jpg") no-repeat;
+    
+}
+
+.container a {
+    float: right;
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poiret One', sans-serif;
+
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 14px 16px;
+
+}
+
+.container .dropbtn {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poiret One', sans-serif;
+
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 14px 16px;
+
+}
+
+.container a:hover {
+    border-bottom: 2px solid gold;
+}
+
+.container .dropbtn:hover {
+    border-bottom: 2px solid gold;
+
+}
+
+.dropbtn {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    z-index: 1;
+
+    display: none;
+    position: absolute;
+    bottom: 577px;
+    right: 200px;
+    background-color: #FEF2E6;
+    min-width: 70px;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    display: block;
+
+    float: none;
+    padding: 12px 16px;
+
+    font-family: 'Poiret One', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #DDD;
+}
+
+/* displays the dropdown menu */
+.show {
+    display: block;
+}
+
+.about-me p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poiret One', sans-serif;
+    color: black;
+
+
+}
+
+/* biography paragraph */
+.about-me {
+    position: relative;
+    top: 95px;
+    right: 8px;
+    padding: 7px;
+    background-color: lightslategrey;
+    opacity: 0.5;
+  
+}
+
+/* the codecademy website link */
+.about-me a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+/* pseudo class selector for what happens when a user hovers over the codecademy link */
+.about-me a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+/* .intro-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 90px;
+}
+
+.gallery-item { margin: 20px; }
+
+.gallery-item .thumbnail {
+    border: solid 3px #EEB422;
+
+    width: 200px;
+    height: 200px;
+} */

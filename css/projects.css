@@ -1,0 +1,187 @@
+html {
+    background: url("marble.jpg") no-repeat;
+    background-size: cover;
+}
+
+.container a {
+    float: right;
+
+    font-size: 16px;
+    font-family: 'Poiret One', sans-serif;
+
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 14px 16px;
+
+}
+
+.container .dropbtn {
+    float: right;
+    font-size: 16px;
+    font-family: 'Poiret One', sans-serif;
+
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 14px 16px;
+
+}
+
+.container a:hover {
+    border-bottom: 2px solid gold;
+}
+
+.container .dropbtn:hover {
+    border-bottom: 2px solid gold;
+
+}
+
+.dropbtn {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    z-index: 1;
+
+    display: none;
+    position: absolute;
+    background-color: #FEF2E6;
+    min-width: 50px;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
+
+    margin-top: 40px;
+    margin-left: 1185px;
+
+}
+
+.dropdown-content a {
+    display: block;
+
+    float: none;
+    padding: 12px 16px;
+
+    font-family: 'Poiret One', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #DDD;
+}
+
+.show {
+    display: block;
+}
+
+.card-container-columns {
+<<<<<<< HEAD:css/projects.css
+    grid-template-rows: 80px auto 80px;
+    grid-row-gap: 15px;
+
+}
+
+#nalukai {
+    position: relative;
+    top: 100px;
+    left: 25px;
+
+}
+
+#nalukai h3 { 
+    font-family: 'Poiret One', sans-serif;
+
+}
+
+#nalukai p {
+    position: relative;
+    bottom: 350px;
+    left: 300px;
+
+    font-family: 'Poiret One', sans-serif;
+=======
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 80px auto 80px;
+    grid-row-gap: 15px;
+    grid-column-gap: 20px;
+
+}
+
+
+#nalukai {
+    position: relative;
+    top: 70px;
+}
+
+
+#nalukai-pic, #robotics-pic, #game-pic {
+    border-bottom: 2px solid gold;
+    width: 300px;
+    height: 300px;
+}
+
+
+.content h3 {
+    position: relative;
+    bottom: 320px;
+    left: 500px;
+
+    font-family: 'Major Mono Display', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.content p {
+    z-index: 1;
+    position: relative;
+    bottom: 280px;
+    left: 310px;
+
+    font-family: 'Poiret One', sans-serif;
+    color: darkslategrey;
+    text-wrap: text-wrap;
+
+
+
+>>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d:css/projects.css
+}
+
+#nalukai-pic {
+    width: 300px;
+    height: 300px;
+}
+
+<<<<<<< HEAD:css/projects.css
+#robotics-pic {
+    margin-top: 15px;
+    width: 100px;
+    height: 500px;
+}
+
+
+@media only screen and (min-device-width: 320px) and 
+                  (max-width: 568px) {
+
+    .container a {
+        display: none;
+    }
+
+    .dropbtn {
+        display: none;
+    }
+
+}
+=======
+
+>>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d:css/projects.css
