@@ -22,6 +22,8 @@ $(document).ready(function() {
 		  		emailjs.send(service_id,template_id,template_params);
 				alert("Thank you for your valid email");
 				$("#email").val("");
+				$("#fname").val("");
+				$("$lname").val("");
 
 			} else {
 				alert("you should enter an email");
