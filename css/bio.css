@@ -119,19 +119,27 @@ html {
     color: gold;
 }
 
-/* .intro-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    margin-top: 90px;
+ .home img {
+    display: none;
 }
 
-.gallery-item { margin: 20px; }
+/* my phone screen */
+@media only screen and (min-device-width: 320px) 
+                    and (max-width: 568px) {
 
-.gallery-item .thumbnail {
-    border: solid 3px #EEB422;
+    .home img {
+        display: inline-block;
+        position: relative;
 
-    width: 200px;
-    height: 200px;
-} */
+    }
+
+    .container a {
+        display: none;
+    }
+
+    .dropbtn {
+        display: none;
+    }
+
+
+}

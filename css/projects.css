@@ -85,7 +85,6 @@ html {
 }
 
 .card-container-columns {
-<<<<<<< HEAD:css/projects.css
     grid-template-rows: 80px auto 80px;
     grid-row-gap: 15px;
 
@@ -109,7 +108,6 @@ html {
     left: 300px;
 
     font-family: 'Poiret One', sans-serif;
-=======
     grid-template-columns: 100px auto 100px;
     grid-template-rows: 80px auto 80px;
     grid-row-gap: 15px;
@@ -150,11 +148,8 @@ html {
 
     font-family: 'Poiret One', sans-serif;
     color: darkslategrey;
-    text-wrap: text-wrap;
 
 
-
->>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d:css/projects.css
 }
 
 #nalukai-pic {
@@ -162,7 +157,6 @@ html {
     height: 300px;
 }
 
-<<<<<<< HEAD:css/projects.css
 #robotics-pic {
     margin-top: 15px;
     width: 100px;
@@ -182,6 +176,4 @@ html {
     }
 
 }
-=======
 
->>>>>>> e9d5b12c7949a3521a1dfc4af92117ba23a5fa2d:css/projects.css
