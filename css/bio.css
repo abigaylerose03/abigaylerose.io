@@ -86,42 +86,29 @@ html {
     display: block;
 }
 
-.about-me p {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Poiret One', sans-serif;
-    color: black;
-
-
-}
 
 /* biography paragraph */
-.about-me {
-    position: relative;
-    top: 95px;
-    right: 8px;
-    padding: 7px;
-    background-color: lightslategrey;
-    opacity: 0.5;
+.bio {
+  position: relative; 
+  left: 1200px; 
+  bottom: 700px;
   
 }
 
-/* the codecademy website link */
-.about-me a {
-    color: darkslategrey;
-    text-decoration: none;
+.bioImage {
+    font-family: 'Mada', serif;
+    position: relative;
+    height: 100%;
+    min-width: 1000px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
-/* pseudo class selector for what happens when a user hovers over the codecademy link */
-.about-me a:hover {
-    text-decoration: underline;
-    color: gold;
-}
-
- .home img {
+.home img {
     display: none;
 }
+
+
 
 /* my phone screen */
 @media only screen and (min-device-width: 320px) 
