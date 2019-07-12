@@ -1,5 +1,6 @@
 html {
     background: url("marble.jpg") no-repeat;
+    background-size: cover;
     
 }
 
@@ -92,16 +93,19 @@ html {
   position: relative; 
   left: 1200px; 
   bottom: 700px;
+
   
 }
 
 .bioImage {
     font-family: 'Mada', serif;
+    color: darkslategrey;
     position: relative;
     height: 100%;
     min-width: 1000px;
     max-width: 1500px;
     margin: 0 auto;
+    word-wrap: break-word;
 }
 
 .home img {
