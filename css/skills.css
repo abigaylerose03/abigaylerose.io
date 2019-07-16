@@ -104,34 +104,6 @@ h2 {
     color: darkslategrey;
 }*/
 
-#red:hover { color: red; }
-
-#orange:hover { color: darkorange; }
-
-#gold:hover { color: gold; }
-
-#yellow:hover { color: yellow; }
-
-#dark-green:hover { color: #1A4701 }
-
-#green:hover { color: lawngreen; }
-
-#blue:hover { color: blue; }
-
-#cyan:hover { color: cyan; }
-
-#baby-blue:hover { color: lightblue; }
-
-#dark-purple:hover { color: #8902A1; }
-
-#purple:hover { color: rebeccapurple; }
-
-#magenta:hover { color: #F635FD; }
-
-#lavender:hover { color: #E99FFE; }
-
-#black:hover { color: black; }
-
 .home {
     display: none;
 }
