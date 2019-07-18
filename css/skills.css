@@ -1,5 +1,11 @@
 html {
+    background-color: #ffcb2f;
+}
+
+header {
     background: url("marble.jpg") no-repeat;
+    height: 550px;
+
 }
 
 .poiret-one {
@@ -60,16 +66,18 @@ html {
     background-color: inherit;
 }
 
+
 .dropdown-content {
     z-index: 1;
 
     display: none;
-    position: relative;
-    bottom: 1000px;
-
+    position: absolute;
     background-color: #FEF2E6;
-    min-width: 70px;
+    min-width: 50px;
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
+
+    bottom: 480px;
+    right: 190px;
 
 }
 
@@ -89,6 +97,7 @@ html {
 .dropdown-content a:hover {
     background-color: #DDD;
 }
+
 .show {
     display: block;
 }
@@ -97,10 +106,21 @@ html {
     display: none;
 }
 
-.grid-container .grid-item-java {
-    width: 10px;
-    height: 10px;
+.grid-container {
+    position: relative;
+    top: 100px;
+    left: 500px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
 }
+
+.grid-item:hover {
+    opacity: 0.3;
+}
+
 
 @media only screen and (min-device-width: 320px) and 
                             (max-width: 568px) {

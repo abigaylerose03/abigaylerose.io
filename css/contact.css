@@ -38,10 +38,12 @@ html {
 
 .container a:hover {
     color: darkslategrey;
+    border-bottom: gold;
 }
 
 .container .dropbtn:hover {
     color: darkslategrey;
+    border-bottom: gold;
 
 }
 
