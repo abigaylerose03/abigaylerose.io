@@ -9,10 +9,12 @@ html {
 
     font-size: 16px;
     font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
 
-    color: hsl(72, 7%, 75%);
+    color: darkslategrey;
     text-align: center;
     text-decoration: none;
+    letter-spacing: 3px;
 
     padding: 14px 16px;
 
@@ -22,21 +24,22 @@ html {
     float: right;
     font-size: 16px;
     font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
 
-    color: hsl(72, 7%, 75%);
+    color: darkslategrey;
     text-align: center;
     text-decoration: none;
-
+    letter-spacing: 3px;
     padding: 14px 16px;
 
 }
 
 .container a:hover {
-    color: darkslategrey;
+    border-bottom: 2px solid gold;
 }
 
 .container .dropbtn:hover {
-    color: darkslategrey;
+    border-bottom: 2px solid gold;
 
 }
 
