@@ -95,32 +95,39 @@ html, body {
 }
 
 #about-me {
+
+    position: relative;
+    left: 410px;
     font-family: 'Mada', serif;
     color: black;
-    position: relative;
-    left: 1200px;
-    top: 320px;
     letter-spacing: 4px;
 }
 
 
 /* biography paragraph */
 .bio {
-  position: relative; 
-  left: 1200px; 
-  bottom: 700px;
+  position: relative;
+  right: 240px;
+
+  text-align: center;
+
+  font-family: 'Poiret One';
+  color: darkslategrey;
+  font-weight: bolder;
+
   word-wrap: wrap;
 
   
 }
 
 .bioImage {
-    font-family: 'Mada', serif;
+    position: relative;
+    top: 40px;
+    left: 250px;
+    opacity: 0.6;
+   /* font-family: 'Mada', serif; */
     color: darkslategrey;
     position: relative;
-    height: 100%;
-    min-width: 1000px;
-    max-width: 1500px;
     margin: 0 auto;
     word-wrap: break-word;
 }
