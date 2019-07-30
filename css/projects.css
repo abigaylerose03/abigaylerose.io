@@ -84,50 +84,6 @@ html {
     display: block;
 }
 
-.card-container-columns {
-    grid-template-rows: 80px auto 80px;
-    grid-row-gap: 15px;
-
-}
-
-#nalukai {
-    position: relative;
-    top: 100px;
-    left: 25px;
-
-}
-
-#nalukai h3 { 
-    font-family: 'Poiret One', sans-serif;
-
-}
-
-#nalukai p {
-    position: relative;
-    bottom: 350px;
-    left: 300px;
-
-    font-family: 'Poiret One', sans-serif;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: 80px auto 80px;
-    grid-row-gap: 15px;
-    grid-column-gap: 20px;
-
-}
-
-
-#nalukai {
-    position: relative;
-    top: 70px;
-}
-
-
-#nalukai-pic, #robotics-pic, #game-pic {
-    border-bottom: 2px solid gold;
-    width: 300px;
-    height: 300px;
-}
-
 
 .content h3 {
     position: relative;
@@ -152,20 +108,28 @@ html {
 
 }
 
-#nalukai-pic {
-    width: 300px;
-    height: 300px;
+.grid-container {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
 }
 
-#robotics-pic {
-    margin-top: 15px;
-    width: 100px;
-    height: 500px;
+.grid-item h3 {
+    font-family: 'Poiret One', sans-serif;
 }
 
-
+.home {
+    display: none;
+}
 @media only screen and (min-device-width: 320px) and 
                   (max-width: 568px) {
+
+    .home {
+        display: inline;
+    }
 
     .container a {
         display: none;
