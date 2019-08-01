@@ -1,11 +1,12 @@
 html {
-    background-color: #ffcb2f;
+    background: url('marble.jpg') no-repeat;
+    background-size: cover;
 }
 
-header {
-    background: url("marble.jpg") no-repeat;
-    height: 550px;
-
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
 }
 
 .poiret-one {
@@ -108,8 +109,7 @@ header {
 
 .grid-container {
     position: relative;
-    top: 100px;
-    left: 500px;
+    bottom: 30px;
     display: inline-grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
@@ -119,6 +119,16 @@ header {
 
 .grid-item:hover {
     opacity: 0.3;
+}
+
+.label {
+    margin: auto;
+    font-family: 'Poiret One', sans-serif;
+    position: relative; 
+    top: 100px; 
+    left: 640px; 
+    font-size: 30px; 
+    font-weight: bolder;
 }
 
 
@@ -148,5 +158,10 @@ header {
     .dropdown-content a:hover {
         display: none;
     }
+
+    
+
+
+
 
 }

@@ -108,6 +108,12 @@ html {
 
 }
 
+h1 {
+    font-family: 'Poiret One';
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
 .grid-container {
     position: relative;
     display: inline-grid;

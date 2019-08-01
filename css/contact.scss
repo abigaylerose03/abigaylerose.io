@@ -2,25 +2,18 @@ html {
     background: url("marble.jpg") no-repeat;
 }
 
-
 .home {
     display: none;
 }
-
 
 /* my phone screen */
 @media only screen and (min-device-width: 320px) 
                     and (max-width: 568px) { 
 
-        html, body {
-            margin: 0px;
-            padding: 0px;
-            overflow-x: hidden;
-        }
-        .home {
-            display: inline;
-            float: left;
-        }
+        .home 
+            display: inline
+            float: left
+        
         /*
         .form {
             display: inline;
@@ -28,73 +21,26 @@ html {
 
         }*/
 
-        .form h4 {
-            position: relative;
-            right: 420px;
-            font-size: 20px;
-        }
+        @mixin form 
+            position: relative
+            right: 500px
+        
 
-        .form p {
-            position: relative;
-            right: 430px;
-        }
+        .form h4 
+            @include form;  
+        
 
-        .form #name {
-            position: relative;
-            right: 500px;
-           
-        }
-
+        .form #name 
+            // position: relative;
+            // right: 500px;
+            @include form;
+        
         .form #fname {
             position: relative;
             width: 215px;
             right: 500px;
-        }
 
-        .form #lastname {
-            position: relative;
-            width: 215px;
-            right: 500px;
-        }
-        
 
-        .form #lname {
-            position: relative;
-            width: 215px;
-            right: 500px;
-        }
-
-         .form #email-label {
-            position: relative;
-            width: 215px;
-            right: 500px;
-        }
-
-         .form #email {
-            position: relative;
-            width: 215px;
-            right: 500px;
-        }
-
-         .form #message-label {
-            position: relative;
-            width: 215px;
-            right: 500px;
-        }
-
-         .form #message {
-            position: relative;
-            width: 100px;
-            right: 500px;
-        }
-
-         .form #btn {
-            position: relative;
-            top: 10px;
-            width: 215px;
-            right: 500px;
-            border: 1px solid gold;
-            background-color: white;
         }
 
         .container a {
