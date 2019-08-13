@@ -12,3 +12,9 @@ window.onclick = function(e) {
     }
 }
 
+function first() {
+	setTimeout(function() {
+		console.log(1);
+	}, 500);
+}
+
