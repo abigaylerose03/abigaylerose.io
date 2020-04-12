@@ -5,9 +5,13 @@ html {
 
 }
 
-header {
+
+.marble {
+    position: relative;
+    bottom: 40px;
     background: url("marble.jpg") no-repeat;
     height: 550px;
+
 
 }
 
@@ -25,8 +29,8 @@ header {
 
     /* margin-left: 550px; 
     margin-top: 140px; */
-    bottom: 10px;
-    left: 10px;
+    bottom: -5px;
+    left: -4px;
 
 }
 
@@ -88,102 +92,94 @@ header {
    
 }
 
-/* the nav bar */
-.container a {
-    float: right;
-
-    font-size: 16px;
-    font-family: 'Poiret One', sans-serif;
-
-    /* color: hsl(72, 7%, 75%); */
-    color: darkslategrey;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-
-    padding: 14px 16px;
-
-}
-
-.container .dropbtn {
-    float: right;
-
-    font-size: 16px;
-    font-family: 'Poiret One', sans-serif;
-
-    /* color: hsl(72, 7%, 75%); */
-    color: darkslategrey;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-
-    padding: 14px 16px;
-
-}
-
-.container a:hover {
-    border-bottom: 2px solid gold;
-}
-
-.container .dropbtn:hover {
-    border-bottom: 2px solid gold;
-
-}
-
-
-.dropbtn {
-    cursor: pointer;
-    font-size: 20px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 0px 10px 0px 10px;
-    background-color: inherit;
-}
-
-.dropdown-content {
+.nav-bar {
     z-index: 1;
-
-    display: none;
-    position: absolute;
-    bottom: 540px;
-    right: 255px;
-    background-color: #FEF2E6;
-    min-width: 70px;
-    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
-
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    overflow: auto;
+    opacity: 0.9;
+   
 }
 
-.dropdown-content a {
-    display: block;
+/* my name in the nav */
+.nav-bar p {
+  
 
-    float: none;
-    padding: 12px 16px;
+    position: relative;
+    bottom: -10px;
+    left: 10px;
 
-    font-family: 'Poiret One', sans-serif;
-    font-size: 13px;
+    font-family: 'Major Mono Display', sans-serif;
+    font-weight: bold;
+}
+
+
+
+/* the nav bar */
+.nav-bar a {
+
+    position: relative;
+    top: 10px;
+    float: right;
+
+
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+
+    /* color: hsl(72, 7%, 75%); */
+    color: darkslategrey;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
     text-decoration: none;
-    text-align: left;
-    color: black;
-}
 
-.dropdown-content a:hover {
-    background-color: #DDD;
-}
-
-.my-name {
-    position: absolute;
-    left: 15px;
-    bottom: 580px;
+    padding: 14px 16px;
 
 }
 
-.my-name h3 {
-    font-family: 'Major Mono Display', monospace;
+
+.nav-bar a:hover {
+    border-bottom: 2px solid gold;
+}
+
+.nav-bar .dropbtn:hover {
+    border-bottom: 2px solid gold;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column
+}
+
+/* The Section Titles */
+.container .sub-head {
+    font-family: 'Major Mono Display', sans-serif;
+    text-align: center;
+    
+}
+
+
+#about img {
+    position: relative;
+    bottom: 60px;
+    float: right;
+}
+
+#about p span {
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    color: #EEB422;
+}
+
+#about p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+#skills h3 {
+    text-align: center;
 }
 
 .fa {
@@ -226,10 +222,10 @@ header {
 .intro-para {
 
     position: absolute;
-    border: solid 3px #EEB422;
+
     text-align: center;
     padding: 10px;
-    top: 393px;
+    top: 410px;
     left: 400px;
     /* margin-top: 100px;
     margin-left: 400px; */
@@ -244,6 +240,9 @@ header {
 }
 
 .intro-para h3 {
+    position: relative;
+    bottom: 10px;
+    left: 160px;
 
     font-family: 'Major Mono Display', sans-serif;
     font-size: 17px;
@@ -252,8 +251,8 @@ header {
     color: darkslategrey;
 
     animation:
-        typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
+        typing 2.5s steps(40, end),
+        blink-caret .90s step-end infinite;
 }
 
 @keyframes typing {

@@ -16,38 +16,36 @@
 
         <link href="https://fonts.googleapis.com/css?family=Allura|Mada|Poiret+One" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
+         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="css/main.css" type="text/css">
     </head>
     <body>
-        <header>
-            
-            <div class="container">
-                <nav>
-                    <a href="contact.html">Say Hello</a>
-                    <a href="resource-list.html">Resources</a>
+          <div class="nav-bar">
+               
+                    <a href="#contact-me">Contact</a>
+                    <a href="#projects">Projects</a>
 
                     <!-- the dropdown menu button part of the nav bar -->
-                    <button class="dropbtn" onclick="dropActivate();">About</button>
-                    <div class="dropdown-content" id="myDropdown">
-                    <!-- the dropdown menu's content -->
-                        <a href="skills.html">skills</a>
-                        <a href="projects.html">projects</a>
-                        <a href="bio.html">about me</a>
-                    </div>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">About</a>
 
-                    <a href="index.html">Home</a>
-                </nav>
-            </div>
+                    <a href="#home">Home</a> 
+                    <p>| Abigayle Peterson | </p>
+             </div>
 
+        <header class="marble">
+            
+        <!-- Home Section -->
+        <div id="home">
             <!-- My Round Profile Pic -->
             <div>
-                <img class="profile-pic" src="bioImage.JPG" alt="arp coding" width="300" height="300" />
+                <img class="profile-pic" src="bioImage.JPG" alt="arp coding" width="226" height="220" />
             </div>
 
             <!-- Home Page Intro. Stay Woke -->
             <div class="intro-para">
-                <h3>Welcome to Abigayle Peterson's Portfolio</h3>
+                <h3>Code with Empathy.</h3>
             </div>
 
             <div class="mobile-intro-para">
@@ -61,14 +59,51 @@
                 </div>
 
             </div>
-        </header>
+        </div>
+    </header>
 
-        <footer>&copy; 2020
+    <div class="container">
+
+        <section id="about">
+            <h3 class="sub-head">About Me</h3>
+            <div>
+                <img src="profile-pic.jpg" width="440" height="500" />
+                <p><span>Hello World! My name is Abigayle Peterson.</span><br>I'm based in Greater Seattle Area and am currently a senior at North Kitsap High School. My goal is to ignite passion within aspiring girls in STEM and help everyone be reflected in the tech industry. <br> Outside of coding, I love to write, read history novels, hike, listen to hip hop music, and drink tons of coffee! </p>
+            </div>
+
+
+        </section>
+
+        <section id="skills" class="marble">
+            <h3 class="sub-head">Skills</h3>
+            <img height=170 width=170 src="blueheart.svg" />
+            <img height=170 width=170 src="paleheart.svg" />
+            <img height=170 width=170 src="greenheart.svg" />
+            <img height=170 width=170 src="purpleheart.svg" />
+
+        </section>
+
+          <section id="projects">
+            <h3 class="sub-head">My Projects && Experiences</h3>
+            <div>
+                <img height=20 width=20 src="microsoft.jpg" />
+            </div>
+
+        </section>
+
+        <section id="contact-me" class="marble">
+            <h3 class="sub-head">Say Hello</h3>
+
+        </section>
+    </div>
+
+      <!--   <footer>&copy; 2020
             <a href="https://www.instagram.com/abbytes_03/?hl=en" class="fa fa-instagram"></a>
             <a href="https://www.linkedin.com/in/abigayle-peterson-8a8467168/https://www.linkedin.com/in/abigayle-peterson-8a8467168/" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-twitter"></a>
             <a href="https://github.com/abigaylerose03" class="fa fa-github"></a>
-        </footer>
+        </footer> -->
+
         <script
           src="https://code.jquery.com/jquery-3.3.1.min.js"
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
