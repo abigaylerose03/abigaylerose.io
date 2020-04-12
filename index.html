@@ -16,7 +16,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Allura|Mada|Poiret+One" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
-         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="css/main.css" type="text/css">
     </head>
@@ -68,7 +68,13 @@
             <h3 class="sub-head">About Me</h3>
             <div>
                 <img src="profile-pic.jpg" width="440" height="500" />
-                <p><span>Hello World! My name is Abigayle Peterson.</span><br>I'm based in Greater Seattle Area and am currently a senior at North Kitsap High School. My goal is to ignite passion within aspiring girls in STEM and help everyone be reflected in the tech industry. <br> Outside of coding, I love to write, read history novels, hike, listen to hip hop music, and drink tons of coffee! </p>
+                <p><span>Hello World! My name is Abigayle Peterson.</span><br>I'm based in Greater Seattle Area and am currently a senior at North Kitsap High School. My goal is to ignite passion within aspiring girls in STEM and help everyone be reflected in the tech industry. Because tech is just tech without user intervention, we must empower diverse communities across the nation to contrubute unique viewpoints. <br><br> Outside of coding, I love to write for Reinvented Magazine, read historical, fantasy novels, lead my community, hike in the Pacific North West, listen to catchy rap music, and drink fancy lattes.<br><br>
+                Have any questions about who I am or would like to collaborate on a project? Feel free to connect to me via <a href="#contact-me">email!</a></p>
+
+                 <a href="https://www.instagram.com/abbytes_03/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/abigayle-peterson-8a8467168/https://www.linkedin.com/in/abigayle-peterson-8a8467168/" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://github.com/abigaylerose03" class="fa fa-github"></a>
             </div>
 
 
@@ -76,10 +82,20 @@
 
         <section id="skills" class="marble">
             <h3 class="sub-head">Skills</h3>
-            <img height=170 width=170 src="blueheart.svg" />
-            <img height=170 width=170 src="paleheart.svg" />
-            <img height=170 width=170 src="greenheart.svg" />
-            <img height=170 width=170 src="purpleheart.svg" />
+            <div class="container">
+                <div class="blue">
+                    <img height=170 width=170 src="blueheart.svg" />
+                    <p>Machine-Learning:</p>
+                    <p class="coding-languages"> Python, TensorFlow, Keras, R</p>
+                 </div>  
+            
+                <img height=170 width=170 src="paleheart.svg" />
+          
+                <img height=170 width=170 src="greenheart.svg" />
+       
+                <img height=170 width=170 src="purpleheart.svg" />
+            
+            </div>
 
         </section>
 
@@ -93,16 +109,36 @@
 
         <section id="contact-me" class="marble">
             <h3 class="sub-head">Say Hello</h3>
+        
+            <div class="form">
+                <form name="form" action="#">
+
+                    <h4>Contact Form</h4>
+                    <p>____________________________</p>
+
+                    <label id="name">Name: <span>*</span></label>
+                    <input type="text" id="fname"/>
+
+                    <label id="lastname"> Last Name: <span>*</span></label>
+                    <input type="text" id="lname"/>
+
+                    <label id="email-label"> Email: <span>*</span></label>
+                    <input type="text" id="email"/>
+
+                    <label id="message-label"> Message: <span>*</span></label>
+                    <textarea id="message" placeholder="Say Hello"></textarea>
+
+                    <button type="button" id="btn">Send Message</button>
+                </form>
+            </div>
+            </div>
 
         </section>
+
     </div>
 
-      <!--   <footer>&copy; 2020
-            <a href="https://www.instagram.com/abbytes_03/?hl=en" class="fa fa-instagram"></a>
-            <a href="https://www.linkedin.com/in/abigayle-peterson-8a8467168/https://www.linkedin.com/in/abigayle-peterson-8a8467168/" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="https://github.com/abigaylerose03" class="fa fa-github"></a>
-        </footer> -->
+        <footer>&copy; 2020
+        </footer>
 
         <script
           src="https://code.jquery.com/jquery-3.3.1.min.js"

@@ -177,9 +177,26 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
+.coding-languages {
+    font-size: 10px;
+}
+
 
 #skills h3 {
     text-align: center;
+}
+
+#skills .container {
+   display: inline;
+}
+
+#skills .container .blue p {
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: 1000;
 }
 
 .fa {
@@ -254,6 +271,71 @@ html {
         typing 2.5s steps(40, end),
         blink-caret .90s step-end infinite;
 }
+
+
+.form {
+   /* margin: auto;*/
+    padding: 10px;
+
+    position: relative;
+    top: 100px;
+    left: 490px;
+
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+.form input {
+    display: block;
+
+    width: 375px;
+    height: 25px;
+    border-radius: 25px;
+
+}
+
+.form #message {
+    display: block;
+
+    width: 375px;
+    height: 125px;
+}
+
+#sendMsg {
+    display: block;
+    border: 1px solid gold;
+    width: 375px;
+    text-align: center;
+}
+
+
+    /* position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+    border: solid 2px #EEB422;
+    border-radius: 15px;
+
+    color: grey;
+    font-family: "Mada", serif;
+
+    width: 100px;
+    height: 30px; */
+
+
+.form #message:focus, input:focus {
+    border: 1px solid #09C;
+}
+
+#btn {
+    width: 383px;
+}
+
+
 
 @keyframes typing {
     from { width: 0 }
