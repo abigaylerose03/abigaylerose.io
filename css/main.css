@@ -278,7 +278,7 @@ html {
     padding: 10px;
 
     position: relative;
-    top: 100px;
+    top: 30px;
     left: 490px;
 
     font-family: "Quicksand", sans-serif;
@@ -298,11 +298,18 @@ html {
 
 }
 
-.form #message {
+.form #messageLabel {
     display: block;
+}
+ /* the text box */
+.form #messageText {
+    position: "relative";
+    bottom: 120px;
+
 
     width: 375px;
     height: 125px;
+
 }
 
 #sendMsg {
@@ -331,8 +338,15 @@ html {
     border: 1px solid #09C;
 }
 
-#btn {
-    width: 383px;
+.form #btn {
+    background-color: #99ffe6;
+    display: block;
+ 
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+    margin-left: 50px;
+
 }
 
 
@@ -366,4 +380,4 @@ html {
     display: block;
 }
 
-footer { font-family: 'Poiret One', sans; }
+footer { font-family: 'Quicksand', sans; }

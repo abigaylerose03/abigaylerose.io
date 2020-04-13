@@ -10,20 +10,22 @@ $(document).ready(function() {
 
 			} else if(emailReg.test(userEmail)) {
 				emailjs.init("user_AgJ808zwiP3Cm8Hhe0ZJM");
-			      var service_id = 'abigaylerose03_gmail_com';
+			      var service_id = 'gmail';
 			      var template_id = 'email_template_2';
 			      var template_params = {
 				      to_name: 'Abigayle',
 				      from_name: $("#name").val(),
-				      message: $("#message").val(),
-				      reply_to: $("#email").val()
+				      message: $("#messageText").val(),
+				      reply_to: $("#email").val(),
+				      subject: $("#subject").val()
 			  		} 
 
 		  		emailjs.send(service_id,template_id,template_params);
 				alert("Thank you for your valid email");
 				$("#email").val("");
-				$("#fname").val("");
-				$("$lname").val("");
+				$("#messageText").val("");
+				$("#name").val("");
+				$("#subject").val("");
 
 			} else {
 				alert("you should enter an email");

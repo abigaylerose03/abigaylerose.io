@@ -40,7 +40,7 @@
         <div id="home">
             <!-- My Round Profile Pic -->
             <div>
-                <img class="profile-pic" src="bioImage.jpg" width="226" height="220" />
+                <img class="profile-pic" src="bioImage.jpg" width="250" height="220" />
             </div>
 
             <!-- Home Page Intro. Stay Woke -->
@@ -68,7 +68,7 @@
             <h3 class="sub-head">About Me</h3>
             <div>
                 <img src="profile-pic.jpg" width="440" height="500" />
-                <p><span>Hello World! My name is Abigayle Peterson.</span><br>I'm based in Greater Seattle Area and am currently a senior at North Kitsap High School. My goal is to ignite passion within aspiring girls in STEM and help everyone be reflected in the tech industry. Because tech is just tech without user intervention, we must empower diverse communities across the nation to contrubute unique viewpoints. <br><br> Outside of coding, I love to write for Reinvented Magazine, read historical, fantasy novels, lead my community, hike in the Pacific North West, listen to catchy rap music, and drink fancy lattes.<br><br>
+                <p><span>Hello World! My name is Abigayle Peterson.</span><br>I'm based in Greater Seattle Area and am currently a senior at North Kitsap High School who plans to major in computer science. My goal is to ignite passion within aspiring girls in STEM and help everyone be reflected in the tech industry. Because tech is just tech without user intervention, we must empower diverse communities across the nation to contrubute unique viewpoints<br><br>Currently <br><br> Outside of coding, I love to write for Reinvented Magazine, read historical novels, volunteer within my community, hike in the Pacific North West, listen to catchy rap music, and drink fancy lattes.<br><br>
                 Have any questions about who I am or would like to collaborate on a project? Feel free to connect to me via <a href="#contact-me">email!</a></p>
 
                  <a href="https://www.instagram.com/abbytes_03/?hl=en" class="fa fa-instagram"></a>
@@ -112,21 +112,17 @@
         
             <div class="form">
                 <form name="form" action="#">
+                    <label id="nameLabel">Name: </label>
+                    <input type="text" id="name"/>
 
-                    <h4>Contact Form</h4>
-                    <p>____________________________</p>
-
-                    <label id="name">Name: <span>*</span></label>
-                    <input type="text" id="fname"/>
-
-                    <label id="lastname"> Last Name: <span>*</span></label>
-                    <input type="text" id="lname"/>
-
-                    <label id="email-label"> Email: <span>*</span></label>
+                    <label id="emailLabel"> Email: </label>
                     <input type="text" id="email"/>
 
-                    <label id="message-label"> Message: <span>*</span></label>
-                    <textarea id="message" placeholder="Say Hello"></textarea>
+                     <label id="subjectLabel"> Subject: </label>
+                    <input type="text" id="subject"/>
+
+                    <label id="messageLabel"> Message: </label>
+                    <textarea id="messageText"></textarea>
 
                     <button type="button" id="btn">Send Message</button>
                 </form>
@@ -141,13 +137,12 @@
         </footer>
 
         <script
-          src="https://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/contact-validation.js"></script>
         <script type="text/javascript" src="js/memberEmail.js"></script>
-        <!-- <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
 </html>
