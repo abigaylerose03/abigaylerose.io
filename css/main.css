@@ -182,20 +182,25 @@ html {
 }
 
 
-#skills h3 {
-    text-align: center;
-}
-
 #skills .container {
-   display: inline;
+    display: flex;
+    flex-direction: row;
+
+
 }
 
-#skills .container .blue p {
+#skills .container .heart {
+    padding: 10px;
+    position: relative;
+    left: 270px;
+
+}
+#skills .container .heart p {
     position: relative;
     bottom: 40px;
     left: 30px;
 
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 1000;
 }
 
