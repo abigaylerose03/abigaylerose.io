@@ -192,18 +192,65 @@ html {
 #skills .container .heart {
     padding: 10px;
     position: relative;
-    left: 270px;
+    left: 250px;
 
+}
+
+#skills .container .heart:hover {
+    opacity: 0.3;
 }
 #skills .container .heart p {
     position: relative;
     bottom: 40px;
     left: 30px;
+    font-size: 15px;
 
     font-family: 'Quicksand', sans-serif;
     font-weight: 1000;
 }
 
+#projects .container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 300px;
+
+}
+
+
+/* the individual projects */
+#projects .container .proj {
+    position: relative;
+    left: 270px;
+    top: 200px;
+
+}
+
+#projects .container .proj .wrapper {
+    position: relative;
+    padding: 0;
+    display:block;
+}
+#projects .container .proj .text {
+    position: absolute;
+    top: 0;
+    color: black;
+    background-color:rgba(255,255,255,0.8);
+    width: 250px;
+    height: 250px;
+
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#projects .container .proj .text:hover {
+    opacity: 1;
+}
 .fa {
     border-radius: 50%;
 
@@ -310,7 +357,7 @@ html {
 .form #messageText {
     position: "relative";
     bottom: 120px;
-
+       border-radius: 25px;
 
     width: 375px;
     height: 125px;
