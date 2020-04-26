@@ -11,7 +11,9 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link href="https://fonts.googleapis.com/css?family=Allura|Mada|Poiret+One" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Allura|Mada|Poiret+One" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
+         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/skills.css" type="text/css" />
     </head>
         <body>
@@ -29,8 +31,8 @@
                         <button class="dropbtn" onclick="dropActivate();">About</button>
                         <div class="dropdown-content" id="myDropdown">
                         <!-- the dropdown menu's content -->
-                            <a href="skills.html">skills</a>
-                            <a href="projects.html">projects</a>
+                            <a href="#skills">skills</a>
+                            <a href="#projects">projects</a>
                             <a href="bio.html">about me</a>
                         </div>
 
@@ -39,22 +41,33 @@
             </div>
         <header>
 
-
-            <div class="grid-container">
-                    <div class="grid-item"><img width=50 height=100 src="javaLogo.png" /></div>
-                    <div class="grid-item"><img style="width: 100px; height: 100px" src="jsLogo.png" /></div>
-                     <div class="grid-item"><img style="width: 160px; height: 100px" src="htmlLogo.png" /></div>
-                      <div class="grid-item"><img style="width: 100px; height: 100px" src="cssLogo.png" /></div>
-                    <div class="grid-item"><img style="width: 160px; height: 100px" src="rnLogo.png" /></div>
-                    <div class="grid-item"><img style="width: 100px; height: 100px" src="jquery.png" /></div>
-                    <div class="grid-item"><img style="width: 100px; height: 100px" src="pythonLogo.png" /></div>
-                    <div class="grid-item"><img style="width: 100px; height: 100px" src="cLogo.png" /></div>
-                    <div class="grid-item"><img style="width: 100px; height: 100px" src="rlogo.png" /></div>
-                     <div class="grid-item"><img style="width: 100px; height: 100px" src="rubyLogo.png" /></div>
-                      <div class="grid-item"><img style="width: 100px; height: 100px" src="tenLogo.png" /></div>
-                       <div class="grid-item"><img style="width: 100px; height: 100px" src="phpLogo.png" /></div>
-
+         <section id="skills" class="marble">
+     
+            <div class="container">
+                <div class="heart">
+                    <img height=20 width=20 src="blueheart.svg" />
+                    <p>Artificial Intelligence:</p>
+                    <p class="coding-languages"> Python, TensorFlow, Keras, R, <br>Jupyter Notebook, DialogFlow</p>
+                 </div>  
+                     <div class="heart">
+                      <img height=20 width=20 src="paleheart.svg" />
+                    <p>Web Development:</p>
+                    <p class="coding-languages">HTML, CSS, JavaScript, JQuery,<br> Node.js, React, PHP, Express.js</p>
+                 </div>  
+                     <div class="heart">
+                     <img height=20 width=20 src="greenheart.svg" />
+                    <p>Mobile Development:</p>
+                    <p class="coding-languages">React Native, Swift, XCode, </p>
+                 </div>  
+                     <div class="heart">
+                     <img height=20 width=20 src="purpleheart.svg" />
+                    <p>Game Development:</p>
+                    <p class="coding-languages">OpenGL, Slick 2D, Java Litiengine, C++, C#</p>
+                 </div>      
+            
             </div>
+
+        </section>
 
 
 

@@ -162,9 +162,34 @@ html {
         display: none;
     }
 
-    
+
+    #skills .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
 
 
+    }
 
+    #skills .container .heart {
+   
+        position: relative;
+       
+
+    }
+
+    #skills .container .heart:hover {
+        opacity: 0.3;
+    }
+
+    #skills .container .heart p {
+        position: relative;
+        bottom: 40px;
+        left: 30px;
+        font-size: 15px;
+
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 1000;
+    }
 
 }
