@@ -326,10 +326,6 @@ html {
     border-bottom: 2px solid gold;
 }
 
-.nav-bar .dropbtn:hover {
-    border-bottom: 2px solid gold;
-
-}
 
 .container {
     display: flex;
@@ -395,6 +391,7 @@ html {
 #projects .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 300px;
 
 }
@@ -403,7 +400,7 @@ html {
 /* the individual projects */
 #projects .container .proj {
     position: relative;
-    left: 270px;
+    left: 100px;
     top: 200px;
 
     padding: 10px;
@@ -431,6 +428,11 @@ html {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+#projects .container .proj img {
+    object-fit: cover;
+    border-radius: 10%;
 }
 
 #projects .container .proj .text:hover {
