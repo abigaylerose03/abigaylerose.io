@@ -620,4 +620,7 @@ html {
     display: block;
 }
 
-footer { font-family: 'Quicksand', sans; }
+footer { 
+    font-family: 'Quicksand', sans; 
+    text-align: center;
+}
