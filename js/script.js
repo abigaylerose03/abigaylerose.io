@@ -1,20 +1,15 @@
-function dropActivate() {
-    document.getElementById("myDropdown").classList.toggle("show");
-
-}
-
-window.onclick = function(e) {
-    if (!e.target.matches(".dropbtn")) {
-        var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains("show")) {
-            myDropdown.classList.remove("show");
+(function($) {
+    "use strict"; 
+    
+    /* Preloader */
+    $(window).on('load', function() {
+        var preloaderFadeOutTime = 500;
+        function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            setTimeout(function() {
+                preloader.fadeOut(preloaderFadeOutTime);
+            }, 500);
         }
-    }
-}
-
-function first() {
-	setTimeout(function() {
-		console.log(1);
-	}, 500);
-}
-
+        hidePreloader();
+    });
+})(jQuery);
