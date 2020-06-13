@@ -493,6 +493,7 @@ html {
 #skills .container .heart:hover {
     opacity: 0.3;
 }
+
 #skills .container .heart p {
     position: relative;
     bottom: 40px;
@@ -503,12 +504,13 @@ html {
     font-weight: 1000;
 }
 
+#projects { background: url("marble.jpg") no-repeat; }
+
 #projects .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 300px;
-
 }
 
 
@@ -516,7 +518,7 @@ html {
 #projects .container .proj {
     position: relative;
     left: 100px;
-    top: 200px;
+    top: 100px;
 
     padding: 10px;
 
@@ -532,9 +534,8 @@ html {
     top: 0;
     color: black;
     background-color:rgba(255,255,255,0.8);
-    width: 200px;
+    width: 300px;
     height: 200px;
-    border-radius: 10px;
 
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -548,7 +549,6 @@ html {
 
 #projects .container .proj img {
     object-fit: cover;
-    border-radius: 10%;
 }
 
 #projects .container .proj .text:hover {
@@ -693,15 +693,24 @@ html {
     border: 1px solid #09C;
 }
 
-.form #btn {
-    background-color: #99ffe6;
+.form .btn {
+    background-color: #00ff99;
     display: block;
  
     border-radius: 40px;
-    width: 250px;
+    width: 150px;
     height: 40px;
-    margin-left: 50px;
+    margin-top: 15px;
+    margin-left: 100px;
 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    word-spacing: 30px;
+
+}
+
+.form .btn:hover {
+    background-color: transparent;
 }
 
 
