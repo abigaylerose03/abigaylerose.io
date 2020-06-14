@@ -5,6 +5,10 @@ html {
 
 }
 
+.small-font {
+    font-size: 13px;
+}
+
 .spinner-wrapper {
     position: fixed;
     z-index: 999999;
@@ -530,6 +534,7 @@ html {
     display:block;
 }
 #projects .container .proj .text {
+    font-size: 13px;
     position: absolute;
     top: 0;
     color: black;
