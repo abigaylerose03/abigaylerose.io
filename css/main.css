@@ -475,6 +475,10 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
+/*#about .sm {
+    background-color: #00ff99;
+}*/
+
 .coding-languages {
     font-size: 10px;
 }
@@ -573,28 +577,12 @@ html {
 
 }
 
-.fa:hover { opacity: 0.5; }
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #7DFF1A;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-
-}
-
-.fa-github {
-    background: #C20081;
+.fa { 
+    background-color: #00ff99; 
     color: black;
 }
+
+.fa:hover { opacity: 0.5; }
 
 .intro-para {
 
