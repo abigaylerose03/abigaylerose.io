@@ -1,5 +1,5 @@
 html {
-    background-color: #ffcb2f;
+    background-image: url("bg42.png");
     font-size: 1em;
     
 
@@ -67,42 +67,7 @@ html {
 }
 
 
-.marble  {
-    position: relative;
-    bottom: 40px;
-    background: url("marble.jpg") no-repeat;
-    height: 550px;
 
-
-}
-
-/* marble background for just the top header */
-.marble-header {
-    position: relative;
-    bottom: 40px;
-    background: url("marble.jpg") no-repeat;
-    height: 550px;
-}
-
-
-
-.profile-pic {
-    position: relative;
-    border: solid 2px #EEB422;
-    border-radius: 50%; 
-
-    margin-left: 600px; 
-    margin-top: 110px; 
-   
-    /*bottom: -120px;
-    left: 580px; */
-
-    /* margin-left: 550px; 
-    margin-top: 140px; */
-    bottom: -5px;
-    left: -4px;
-
-}
 
 .mobile-intro-para {
     display: none;
@@ -174,24 +139,7 @@ html {
         display: none;
     }
 
-    /* the marble background */
-    .marble-header {
-        position: relative;
-        bottom: 40px;
-        background: url("marble.jpg") no-repeat;
-        height: 550px;
-    }
-
-    .profile-pic {
-        margin: auto;
-        position: relative;
-        top: 100px;
-        left: 50px;
-
-        border: solid 2px #EEB422;
-        border-radius: 50%; 
-        
-    }
+ 
 
     .mobile-intro-para {
         display: inline;
@@ -394,6 +342,7 @@ html {
     } 
 } /* end of the mobile screen */
 
+/* start of desktop */
 .nav-bar {
     z-index: 1;
     position: sticky;
@@ -402,6 +351,45 @@ html {
     overflow: auto;
     opacity: 0.9;
    
+}
+
+ /* start here */
+    
+ #header #profile-pic {
+    margin: auto;
+    position: relative;
+    top: 68px;
+    left: 200px;
+    border-radius: 50%;
+
+    border: solid 2px #EEB422;
+    border-radius: 50%; 
+    
+}
+#header #intro {
+    margin-left: 8.6rem;
+    margin-top: 5rem;
+}
+.regular {
+    font-size: 1.4rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.light {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    text-decoration: none;
+    color: #000080;
+}
+
+.light:hover {
+    opacity: 0.7;
+}
+
+#socials {
+    position: relative;
+    padding: 10px;
+    left: 230px;
 }
 
 /* my name in the nav */
@@ -512,7 +500,7 @@ html {
     font-weight: 1000;
 }
 
-#projects { background: url("marble.jpg") no-repeat; }
+
 
 #projects .container {
     display: flex;
@@ -738,6 +726,7 @@ html {
 }
 
 footer { 
+    margin-top: 20rem;
     font-family: 'Quicksand', sans; 
-    text-align: center;
+   
 }
