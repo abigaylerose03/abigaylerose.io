@@ -1,6 +1,8 @@
 html {
     background-image: url("bg42.png");
     font-size: 1em;
+    overflow: hidden;
+  
     
 
 }
@@ -359,10 +361,10 @@ html {
     margin: auto;
     position: relative;
     top: 68px;
-    left: 200px;
+    left: 220px;
     border-radius: 50%;
 
-    border: solid 2px #EEB422;
+    border: solid 2px #86CBED;
     border-radius: 50%; 
     
 }
@@ -375,33 +377,74 @@ html {
     font-family: 'Varela Round', sans-serif;
 }
 
-.regular-white {
+.regular-blue {
     font-size: 1.4rem;
     font-family: 'Varela Round', sans-serif;
-    color: white;
+    color: #86CBED;
     position: relative;
-    left: 70rem;
+    left: 68rem;
     bottom: 22rem;
     font-weight: bolder;
 
+}
+
+.light-white {
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-weight: bolder;
 }
 
 .light {
     font-family: 'Roboto', sans-serif;
     display: inline;
     text-decoration: none;
-    color: #000080;
+    color:  #936ED4;
+}
+
+#sub-head {
+    position: relative;
+    right: 1.2;
 }
 
 .light:hover {
     opacity: 0.7;
 }
 
+/* fa fa social buttons */
 #socials {
     position: relative;
     padding: 10px;
     left: 230px;
-    bottom: 70px;
+    bottom: 280px;
+}
+ #about-me-title {
+    position: relative;
+    right: 2rem;
+    margin-right: 120px;
+ }
+
+/* about me paragraph on index.html */
+#about-me #about-me-para {
+    
+    position: relative;
+    left: 59rem;
+    float: center;
+    bottom: 22rem;
+    white-space: nowrap;
+    color: #808080;
+    word-break: break-all;
+
+}
+
+.about-link {
+    color:  #936ED4;
+
+}
+
+.about-link:hover {
+    opacity: 0.5;
+    
 }
 
 /* my name in the nav */
@@ -578,8 +621,8 @@ html {
 }
 
 .fa { 
-    background-color: #00ff99; 
-    color: black;
+    background-color: #86CBED;
+    color: white;
 }
 
 .fa:hover { opacity: 0.5; }

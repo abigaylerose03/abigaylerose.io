@@ -15,74 +15,121 @@
         <!-- Home Button -->
         <a href="index.html"><img class="home" src="home.png" width="30" height="30" alt="Go Home" /></a>
 
-        <div class="container">
-            <nav>
-                <a href="contact.html">Contact</a>
+       
 
          <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
 
         <link rel="stylesheet" href="css/projects.css" type="text/css" />
-    </head>
-    <body>
+  
 
-        <div class="container">
-            <nav>
-                <a href="contact.html">Say Hello</a>
+      <style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 10fr));
+  grid-gap: 20px;
+  align-items: center;
+  }
+.grid > article {
+  background-image: linear-gradient(to #936ED4;, red , yellow);
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+}
+.text > button {
+  background: #86CBED;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
 
-                <a href="resource-list.html">Resources</a>
+.tag-business {
+  font-size: 11px;
+  font-family: 'Mada', sans-serif;
+  font-weight: bolder;
+  background-color: #fadadd;
 
-                <!-- the dropdown menu button part of the nav bar -->
-                <button class="dropbtn" onclick="dropActivate();">About</button>
-                <div class="dropdown-content" id="myDropdown">
-                    <!-- the dropdown menu's content -->
-                    <a href="skills.html">skills</a>
-                    <a href="projects.html">my projects</a>
-                    <a href="bio.html">bio</a>
-                </div>
 
-                <a href="index.html">Home</a>
-            </nav>
-        </div>
-        <!-- Grid Items -->
-        <div class="grid-container">
-            <div class="grid-item">
-                <img width=100 height=100 src="Nalukai.jpg"/>
-                <h3>Nalukai Startup Academy</h3>
-            </div>
-            <div class="grid-item">
-                <img width=100 height=100 src="game.jpg" />
-                <h3>Built By Girls</h3>
-            </div>
-             <div class="grid-item">
-                <img width=100 height=100 src="robotics.jpg" />
-                <h3>FIRST Robotics</h3>
-            </div>
-             <div class="grid-item">
-                <img width=100 height=100 src="ch.jpg" />
-                <h3>Cascade Hygiene</h3>
-            </div>
-             <div class="grid-item">
-                <img width=100 height=100 src="rayLogo.png" />
-                <h3>Ray Wellness</h3>
-            </div>
-            <div class="grid-item">
-                <img width=100 height=100 src="microsoft.jpg" />
-                <h3>Microsoft Research Center</h3>
-            </div>
-            <div class="grid-item">
-                <img width=100 height=100 src="gwc.jpg" />
-                <h3>Girls Who Code</h3>
-            </div>
-            <div class="grid-item">
-                <img width=100 height=100 src="campfrc.jpg" />
-                <h3>FIRST Robotics Camp Eureka</h3>
-            </div>
-             <div class="grid-item">
-                <img width=100 height=100 src="coderdojo.png" />
-                <h3>West Sound Coder Dojo</h3>
-            </div>
-        </div>
+}
+h3 {
+  font-family: 'Varela Round', sans-serif;
+}
 
+p {
+
+   font-family: 'Mada', sans-serif;
+}
+
+button {
+   background-color: #86CBED;
+}
+</style>
+<main class="grid">
+  <article>
+    <img src="magnify_logo.png" alt="Sample photo">
+    <div class="text">
+      <h3>Founder, CEO, iOS App Creator</h3>
+      <p class="tag-business">tags:🌟magnify</p>
+      <p>I'm the founder and CEO at Magnify Wellness.</p>
+      <button>Learn More</button>
+    </div>
+  </article>
+  <article>
+    <img src="/pix/samples/24m.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>CS/M Scholar @ Western Washington University</h3>
+      <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+      <button>Here's how</button>
+    </div>
+  </article>
+  <article>
+    <img src="/pix/samples/22l.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Undergraduate AI Researcher</h3>
+      <p>Completely synergize resource taxing relationships via premier niche markets.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article>
+    <img src="/pix/samples/15l.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Freelance Mobile & Web Dev</h3>
+
+      <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
+      <button>Just do it...</button>
+    </div>
+  </article>
+  <article>
+    <img src="/pix/samples/25m.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>AI4ALL Changemak</h3>
+      <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+      <button>Here's why</button>
+    </div>
+  </article>
+  <article>
+    <img src="/pix/samples/16l.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Sanity check</h3>
+      <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+      <button>Stop here</button>
+    </div>
+  </article>
+
+  <article>
+    <img src="/pix/samples/16l.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Sanity check</h3>
+      <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+      <button>Stop here</button>
+    </div>
+  </article>
+</main>
     
         
         <script type="text/javascript" src="js/script.js"></script>
