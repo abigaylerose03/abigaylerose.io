@@ -428,11 +428,12 @@ html {
 #about-me #about-me-para {
     
     position: relative;
-    left: 59rem;
+    left: 29rem;
     float: center;
     bottom: 22rem;
     white-space: nowrap;
-    color: #808080;
+    color: white;
+    text-align: center;
     word-break: break-all;
 
 }
