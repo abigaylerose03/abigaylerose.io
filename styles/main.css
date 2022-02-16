@@ -1,7 +1,8 @@
 html {
-    background-image: url("bg42.png");
-    font-size: 1em;
-    overflow: hidden;
+    background-image: url("abbywebsitebg2.png");
+    font-size: 1em; 
+/*    background-size: cover;*/
+    overflow-x: hidden;
   
     
 
@@ -18,7 +19,7 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #00ff99;
+    background: #86CBED;
 }
 
 .spinner {
@@ -361,15 +362,24 @@ html {
     margin: auto;
     position: relative;
     top: 68px;
-    left: 220px;
+    left: 4rem;
     border-radius: 50%;
-
+    width: 20%;
+    height: 20%;
     border: solid 2px #86CBED;
     border-radius: 50%; 
     
 }
+
+#header #abbylogo {
+    position: relative;
+    bottom: 2.9rem;
+}
 #header #intro {
-    margin-left: 8.6rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30vh;
     margin-top: 5rem;
 }
 
@@ -377,11 +387,50 @@ html {
     margin-left: 30rem;
     margin-: 2rem;
 }
+
+
+#header .more {
+    font-family: 'Varela Round', sans-serif;
+    display: block;
+    position: relative;
+    left: 36rem;
+    bottom: 30rem;
+    
+
+}
 .regular {
-    font-size: 1.4rem;
     font-family: 'Varela Round', sans-serif;
 }
 
+/* sub sections projects, speaking, and contact */
+.regular-big {
+    display: flex;
+    text-decoration: underline;
+    font-size: 2.2rem;
+    align-content: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+/* hello im abigayle */
+#regular-intro {
+    display: inline;
+    font-size: 2.4rem;
+    position: relative;
+    left: 2rem;
+    bottom: 32rem;
+}
+/* sub below hello*/
+#regular-introsub {
+    font-size: 1rem;
+    position: relative;
+    right: 35rem;
+    bottom: 28rem;
+
+}
 .regular-blue {
     font-size: 1.4rem;
     font-family: 'Varela Round', sans-serif;
@@ -391,6 +440,27 @@ html {
     bottom: 22rem;
     font-weight: bolder;
 
+}
+/* project text */
+.regular-text {
+    font-size: 1.4rem;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 30rem;
+    position: relative;
+    right: 32rem;
+
+}
+
+.regular-minitext {
+    padding: 8.6rem;
+    position: relative;
+    left: 5rem;
+    font-size: 1rem;
+    width: 280px;
+    height: 100px;
+    word-wrap: break-word;
+    font-family: 'Varela Round', sans-serif;
+    bottom: 6.1rem;
 }
 
 .light-white {
@@ -407,6 +477,29 @@ html {
     color:  #936ED4;
 }
 
+#header ul {
+    display: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-weight: lighter;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
 /*#sub-head {
     position: relative;
     right: 1.2;
@@ -416,12 +509,85 @@ html {
     opacity: 0.7;
 }
 
+#myprojects .projectimg {
+    display: inline-block;
+    position: relative;
+    margin-left: 10rem;
+    border: 1px solid grey;
+
+}
+
+/* project. info titles */
+#myprojects #myprojectsinfo {
+    position: relative;
+    left: 16rem;
+    display: flex;
+    flex-direction: row;
+}
+/* project info descriptions */
+#myprojects #myprojectsdesc {
+/*    padding: 3rem;*/
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+#myprojects .projectbtn {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+    background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%);
+    border: transparent;
+    border-radius: 10%;
+    position: relative;
+     position: relative;
+    left: 20rem;
+    margin-right: 27rem;
+         
+}
+
+.projectbtn:hover {
+    opacity: 0.2;
+    transform: translateY(20%);
+}
+
+#myspeaking .speaking {
+    position: relative;
+    left: 700px;
+    border: 2px solid grey;
+}
+
+.speakbtn {
+     background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%);
+    border: transparent;
+    border-radius: 10%;
+    height: 50px;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    left: 780px;
+    margin-top: 20px;
+}
+
+.speakbtn:hover {
+ opacity: 0.2;
+    transform: translateY(20%);
+}
+
+#hmu #contactme {
+    position: relative;
+    left: 35rem;
+}
 /* fa fa social buttons */
 #socials {
     position: relative;
     padding: 10px;
-    left: 230px;
-    bottom: 25rem;
+    left: 140px;
+    bottom: 184rem;
 }
 
  #about-me-title {
@@ -432,7 +598,7 @@ html {
  /*  border-bottom: 10px solid #86CBED;*/
 
  }
-
+s
  #about-me-subtitle {
     position: relative;
     font-size: 1rem;
