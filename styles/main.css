@@ -69,16 +69,41 @@ html {
     }
 }
 
+.regular {
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    
+    .light-white {
+        font-size: 1rem;
+        font-family: 'Varela Round', sans-serif;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .light {
+        font-family: 'Roboto', sans-serif;
+        display: inline;
+        text-decoration: none;
+        color:  #936ED4;
+    }
 
 
+.fa {
+         border-radius: 50%;
+        font-size: 15px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #86CBED;
+        color: white;
+    }
+.fa:hover { opacity: 0.5; }
 
-.mobile-intro-para {
-    display: none;
-}
+/* Mobile  View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
 
-/* my phone screen */
-@media only screen and (min-device-width: 320px) 
-                    and (max-width: 568px) {
 
     .spinner-wrapper {
         position: fixed;
@@ -136,56 +161,403 @@ html {
             transform: scale(1.0);
         }
     }
-        
 
-    .marble {
-        display: none;
+    #abbylogo {
+        position: relative;
+        right: 2vh;
+        bottom: 1vh;
+        width: 30%;
+        height: 30%;
     }
 
- 
 
-    .mobile-intro-para {
+    #header ul {
+        display: fixed;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        list-style-type: none;
+
+    }
+
+    li {
+        position: relative;
+        bottom: 8vh;
+        right: 1vh;
         display: inline;
 
 
-        font-family: 'Poiret One', sans-serif;
     }
 
-
-   .mobile-intro-items {
-        margin-left: 15px;
-   }
-
-   .mobile-intro-items a {
+    li a {
+        font-size: 9.5px;
+        padding: 1px;
+        font-weight: lighter;
+        color: black;
+        font-family: 'Varela Round', sans-serif;
         text-decoration: none;
-   }
 
-   .mobile-intro-items a {
-        text-decoration: none;
-   }
-
-    .intro-para {
-        display: none;
     }
-
-    .intro-para h3 {
-        display: none;
-    }
-
-    .container a {
-        display: none;
-    }
-
-    .container .dropbtn {
-        display: none;
-    }
+    /* HEADER */
     .nav-bar {
+        z-index: 1;
+        position: sticky;
+        top: 0;
+        background-color: #f2f2f2;
+        overflow: auto;
+        opacity: 0.9;
+       
+    }
+
+     #regular-introsub {
         display: none;
+
+    }
+
+    #header #profile-pic {
+        display: flex;
+        width: 50%;
+        height: 40%;
+        margin-left: 13vh;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px #86CBED;
+        border-radius: 50%; 
+
+    }
+
+      #header .more {
+        font-family: 'Varela Round', sans-serif;
+      
+   
+        
+
+    }
+
+    .regular-big {
+        text-decoration: underline;
+         font-weight: bolder;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    /* PROJECTS (instead i have projectsarchive.html for mobile ) */
+    #myprojects { display: none; }
+
+    #myspeaking { display: none }
+
+    /* social media */
+    .fa {
+
+
+        padding: 10px;
+    }
+
+   footer {
+        font-family: 'Varela Round', sans-serif;
+        font-weight: lighter;
+   }
+
+   
+} /* end of the mobile screen */
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    /* sub sections projects, speaking, and contact */
+    .regular-big {
+        display: flex;
+        text-decoration: underline;
+        font-size: 2.2rem;
+        align-content: center;
+        justify-content: center;
+        font-weight: bolder;
+        font-family: 'Varela Round', sans-serif;
+
+    }
+
+
+    /* hello im abigayle */
+    #regular-intro {
+        display: inline;
+        font-size: 2.4rem;
+        position: relative;
+        left: 2rem;
+        bottom: 32rem;
+    }
+    /* sub below hello*/
+    #regular-introsub {
+        color: grey;
+        font-size: 1.6rem;
+        position: relative;
+        right: 35rem;
+        bottom: 28rem;
+
+    }
+    .regular-blue {
+        font-size: 1.4rem;
+        font-family: 'Varela Round', sans-serif;
+        color: #86CBED;
+        position: relative;
+        left: 68rem;
+        bottom: 22rem;
+        font-weight: bolder;
+
+    }
+    /* project text */
+    .regular-text {
+        font-size: 1.4rem;
+        font-family: 'Varela Round', sans-serif;
+        margin-left: 30rem;
+        position: relative;
+        right: 32rem;
+
+    }
+
+    .regular-minitext {
+        padding: 8.6rem;
+        position: relative;
+        left: 5rem;
+        font-size: 1rem;
+        width: 280px;
+        height: 100px;
+        word-wrap: break-word;
+        font-family: 'Varela Round', sans-serif;
+        bottom: 9.1rem;
+    }
+
+
+
+    .nav-bar {
+        z-index: 1;
+        position: sticky;
+        top: 0;
+        background-color: #f2f2f2;
+        overflow: auto;
+        opacity: 0.9;
+       
+    }
+        
+     #header #profile-pic {
+        margin: auto;
+        position: relative;
+        top: 68px;
+        left: 4rem;
+        border-radius: 50%;
+        width: 20%;
+        height: 20%;
+        border: solid 2px #86CBED;
+        border-radius: 50%; 
+        
+    }
+
+    #header #abbylogo {
+        position: relative;
+        bottom: 2.9rem;
+    }
+    #header #intro {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-left: 30vh;
+        margin-top: 5rem;
+    }
+
+    #header #introtwo {
+        margin-left: 30rem;
+        margin-: 2rem;
+    }
+
+
+    #header .more {
+        font-family: 'Varela Round', sans-serif;
+        display: block;
+        position: relative;
+        left: 36rem;
+        bottom: 30rem;
+        
+
+    }
+    /* desktop nav bar */
+    #header ul {
+        display: fixed;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        list-style-type: none;
+
+    }
+
+    li {
+        position: relative;
+        bottom: 6.9rem;
+        left: 74rem;
+        display: inline;
+
+    }
+
+    li a {
+        font-weight: lighter;
+        color: black;
+        font-family: 'Varela Round', sans-serif;
+        text-decoration: none;
+        padding: 5px;
+
+    }
+
+    /*#sub-head {
+        position: relative;
+        right: 1.2;
+    }*/
+
+    .light:hover {
+        opacity: 0.7;
+    }
+
+    #myprojects .projectimg {
+        display: inline-block;
+        position: relative;
+        margin-left: 10rem;
+        border: 1px solid grey;
+        box-shadow: 5px 10px #888888;
+
+    }
+
+    /* project. info titles */
+    #myprojects #myprojectsinfo {
+        position: relative;
+        left: 16rem;
+        display: flex;
+        flex-direction: row;
+    }
+    /* project info descriptions */
+    #myprojects #myprojectsdesc {
+    /*    padding: 3rem;*/
+        display: inline-flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+    #myprojects .projectbtn {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        left: 150px;
+        color: black;
+        font-size: 1rem;
+        font-family: 'Varela Round', sans-serif;
+        background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%);
+        border: transparent;
+        border-radius: 10%;
+        position: relative;
+         position: relative;
+        left: 20rem;
+        margin-right: 27rem;
+             
+    }
+
+    .projects-text {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: grey;
+        font-weight: bolder;
+        font-family: 'Verela Round', sans-serif;
+        text-decoration: none;
+
+    }
+        .projects-text:hover {opacity: 0.2;}
+
+    .projectbtn:hover {
+        opacity: 0.2;
+        transform: translateY(20%);
+    }
+
+    #myspeaking .speaking {
+        position: relative;
+        left: 700px;
+        border: 2px solid grey;
+    }
+
+    .speakbtn {
+         background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%);
+        border: transparent;
+        border-radius: 10%;
+        height: 50px;
+        font-family: 'Varela Round', sans-serif;
+        position: relative;
+        left: 780px;
+        margin-top: 20px;
+    }
+
+    .speakbtn:hover {
+     opacity: 0.2;
+        transform: translateY(20%);
+    }
+
+    #hmu #contactme {
+        position: relative;
+        left: 35rem;
+    }
+    /* fa fa social buttons */
+    #socials {
+        position: relative;
+        padding: 10px;
+        left: 140px;
+        bottom: 184rem;
+    }
+
+     #about-me-title {
+       font-size: 4rem;
+       text-decoration: underline;
+       text-decoration-thickness: 8px;
+       text-decoration-color: #ffffff;
+     /*  border-bottom: 10px solid #86CBED;*/
+
+     }
+    
+     #about-me-subtitle {
+        position: relative;
+        font-size: 1rem;
+        left: 68rem;
+        bottom: 24rem;
+     }
+
+    /* about me paragraph on index.html */
+    #about-me #about-me-para {
+        
+        position: relative;
+        left: 25rem;
+        float: center;
+
+        bottom: 24rem;
+        white-space: nowrap;
+        color: black;
+        text-align: center;
+        word-break: break-all;
+
+    }
+
+    .about-link {
+        color:  #936ED4;
+
+    }
+
+    .about-link:hover {
+        opacity: 0.5;
+        
     }
 
     /* my name in the nav */
     .nav-bar p {
-      display: none;
+      
+
+        position: relative;
+        bottom: -10px;
+        left: 10px;
+
+        font-family: 'Major Mono Display', sans-serif;
+        font-weight: bold;
     }
 
 
@@ -193,779 +565,317 @@ html {
     /* the nav bar */
     .nav-bar a {
 
-      display: none;
+        position: relative;
+        top: 10px;
+        float: right;
+
+
+        font-size: 16px;
+        font-family: 'Quicksand', sans-serif;
+
+        /* color: hsl(72, 7%, 75%); */
+        color: darkslategrey;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+
+        padding: 14px 16px;
 
     }
 
 
     .nav-bar a:hover {
-      display: none;
+        border-bottom: 2px solid gold;
     }
 
-    .nav-bar .dropbtn:hover {
-       display: none;
-
-    }
 
     .container {
-      display: none;
+        display: flex;
+        flex-direction: column
     }
 
     /* The Section Titles */
     .container .sub-head {
-        display: none;
+        font-family: 'Major Mono Display', sans-serif;
+        text-align: center;
         
     }
 
 
     #about img {
-       display: none;
+        position: relative;
+        bottom: 60px;
+        float: right;
     }
 
     #about p span {
-      display: none;
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
     }
 
     #about p {
-       display: none;
+        font-family: 'Quicksand', sans-serif;
     }
 
+    /*#about .sm {
+        background-color: #00ff99;
+    }*/
+
     .coding-languages {
-      display: none;
+        font-size: 10px;
     }
 
 
     #skills .container {
-       display: none;
+        display: flex;
+        flex-direction: row;
+
 
     }
 
     #skills .container .heart {
-      display: none;
+        padding: 10px;
+        position: relative;
+        left: 250px;
+
     }
 
     #skills .container .heart:hover {
-       display: none;
-    }
-    #skills .container .heart p {
-       display: none;
+        opacity: 0.3;
     }
 
+    #skills .container .heart p {
+        position: relative;
+        bottom: 40px;
+        left: 30px;
+        font-size: 15px;
+
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 1000;
+    }
+
+
+
     #projects .container {
-       display: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 300px;
     }
 
 
     /* the individual projects */
     #projects .container .proj {
-      display: none;
+        position: relative;
+        left: 100px;
+        top: 100px;
+
+        padding: 10px;
 
     }
 
     #projects .container .proj .wrapper {
-      display: none;
+        position: relative;
+        padding: 0;
+        display:block;
     }
     #projects .container .proj .text {
-       display: none;
+        font-size: 13px;
+        position: absolute;
+        top: 0;
+        color: black;
+        background-color:rgba(255,255,255,0.8);
+        width: 300px;
+        height: 200px;
+
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        z-index: 10;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #projects .container .proj img {
+        object-fit: cover;
     }
 
     #projects .container .proj .text:hover {
-        display: none;
+        opacity: 1;
     }
     .fa {
-      display: none;
+       
+        padding: 10px;
+        margin-top: 40px;
+        margin-left: 10px;
+
+        font-size: 15px;
+        width: 15px;
+      
 
     }
 
-    .fa:hover { 
-        display: none; 
-    }
-
-    .fa-instagram {
-       display: none;
-    }
-
-    .fa-linkedin {
-       display: none;
-    }
-
-    .fa-twitter {
-      display: none;
-    }
-
-    .fa-github {
-      display: none;
-    }
 
     .intro-para {
-        display: none;
+
+        position: absolute;
+
+        text-align: center;
+        padding: 10px;
+        top: 410px;
+        left: 320px;
+        /* margin-top: 100px;
+        margin-left: 400px; */
     }
 
     .intro-para h3 {
-       display: none;
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap; /* keeps content on a single line */
+        margin: 0 auto;
+        letter-spacing: .15em;
     }
 
     .intro-para h3 {
-       display: none;
+        position: relative;
+        bottom: 10px;
+        left: 160px;
+
+        font-family: 'Major Mono Display', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+
+        color: darkslategrey;
+
+        animation:
+            typing 2.5s steps(40, end),
+            blink-caret .90s step-end infinite;
     }
 
 
     .form {
-      display: none;
+       /* margin: auto;*/
+        padding: 10px;
+
+        position: relative;
+        top: 30px;
+        left: 490px;
+
+        font-family: "Quicksand", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+
+        text-decoration: none;
 
     }
 
     .form input {
-      display: none;
+        display: block;
+
+        width: 375px;
+        height: 25px;
+        border-radius: 25px;
 
     }
 
     .form #messageLabel {
-        display: none;
+        display: block;
     }
      /* the text box */
     .form #messageText {
-        display: none;
+        position: "relative";
+        bottom: 120px;
+           border-radius: 25px;
+
+        width: 375px;
+        height: 125px;
 
     }
 
     #sendMsg {
-        display: none;
+        display: block;
+        border: 1px solid gold;
+        width: 375px;
+        text-align: center;
     }
 
+
+        /* position: absolute;
+        right: 20px;
+        bottom: 20px;
+
+        border: solid 2px #EEB422;
+        border-radius: 15px;
+
+        color: grey;
+        font-family: "Mada", serif;
+
+        width: 100px;
+        height: 30px; */
 
 
     .form #message:focus, input:focus {
-        display: none;
+        border: 1px solid #09C;
     }
 
-    .form #btn {
-      display: none;
-
-    } 
-} /* end of the mobile screen */
-
-/* start of desktop */
-.nav-bar {
-    z-index: 1;
-    position: sticky;
-    top: 0;
-    background-color: #f2f2f2;
-    overflow: auto;
-    opacity: 0.9;
-   
-}
-
- /* start here */
-    
- #header #profile-pic {
-    margin: auto;
-    position: relative;
-    top: 68px;
-    left: 4rem;
-    border-radius: 50%;
-    width: 20%;
-    height: 20%;
-    border: solid 2px #86CBED;
-    border-radius: 50%; 
-    
-}
-
-#header #abbylogo {
-    position: relative;
-    bottom: 2.9rem;
-}
-#header #intro {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-left: 30vh;
-    margin-top: 5rem;
-}
-
-#header #introtwo {
-    margin-left: 30rem;
-    margin-: 2rem;
-}
-
-
-#header .more {
-    font-family: 'Varela Round', sans-serif;
-    display: block;
-    position: relative;
-    left: 36rem;
-    bottom: 30rem;
-    
-
-}
-.regular {
-    font-family: 'Varela Round', sans-serif;
-}
-
-/* sub sections projects, speaking, and contact */
-.regular-big {
-    display: flex;
-    text-decoration: underline;
-    font-size: 2.2rem;
-    align-content: center;
-    justify-content: center;
-    font-weight: bolder;
-    font-family: 'Varela Round', sans-serif;
-
-}
-
-
-/* hello im abigayle */
-#regular-intro {
-    display: inline;
-    font-size: 2.4rem;
-    position: relative;
-    left: 2rem;
-    bottom: 32rem;
-}
-/* sub below hello*/
-#regular-introsub {
-    font-size: 1rem;
-    position: relative;
-    right: 35rem;
-    bottom: 28rem;
-
-}
-.regular-blue {
-    font-size: 1.4rem;
-    font-family: 'Varela Round', sans-serif;
-    color: #86CBED;
-    position: relative;
-    left: 68rem;
-    bottom: 22rem;
-    font-weight: bolder;
-
-}
-/* project text */
-.regular-text {
-    font-size: 1.4rem;
-    font-family: 'Varela Round', sans-serif;
-    margin-left: 30rem;
-    position: relative;
-    right: 32rem;
-
-}
-
-.regular-minitext {
-    padding: 8.6rem;
-    position: relative;
-    left: 5rem;
-    font-size: 1rem;
-    width: 280px;
-    height: 100px;
-    word-wrap: break-word;
-    font-family: 'Varela Round', sans-serif;
-    bottom: 6.1rem;
-}
-
-.light-white {
-    font-size: 1rem;
-    font-family: 'Varela Round', sans-serif;
-    color: white;
-    font-weight: bolder;
-}
-
-.light {
-    font-family: 'Roboto', sans-serif;
-    display: inline;
-    text-decoration: none;
-    color:  #936ED4;
-}
-
-#header ul {
-    display: fixed;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style-type: none;
-
-}
-
-li {
-    float: right;
-}
-
-li a {
-    font-weight: lighter;
-    color: black;
-    font-family: 'Varela Round', sans-serif;
-    display: block;
-    text-decoration: none;
-    padding: 5px;
-
-}
-
-/*#sub-head {
-    position: relative;
-    right: 1.2;
-}*/
-
-.light:hover {
-    opacity: 0.7;
-}
-
-#myprojects .projectimg {
-    display: inline-block;
-    position: relative;
-    margin-left: 10rem;
-    border: 1px solid grey;
-
-}
-
-/* project. info titles */
-#myprojects #myprojectsinfo {
-    position: relative;
-    left: 16rem;
-    display: flex;
-    flex-direction: row;
-}
-/* project info descriptions */
-#myprojects #myprojectsdesc {
-/*    padding: 3rem;*/
-    display: inline-flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-
-#myprojects .projectbtn {
-    width: 100px;
-    height: 50px;
-    position: relative;
-    left: 150px;
-    color: black;
-    font-size: 1rem;
-    font-family: 'Varela Round', sans-serif;
-    background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%);
-    border: transparent;
-    border-radius: 10%;
-    position: relative;
-     position: relative;
-    left: 20rem;
-    margin-right: 27rem;
-         
-}
-
-.projectbtn:hover {
-    opacity: 0.2;
-    transform: translateY(20%);
-}
-
-#myspeaking .speaking {
-    position: relative;
-    left: 700px;
-    border: 2px solid grey;
-}
-
-.speakbtn {
-     background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%);
-    border: transparent;
-    border-radius: 10%;
-    height: 50px;
-    font-family: 'Varela Round', sans-serif;
-    position: relative;
-    left: 780px;
-    margin-top: 20px;
-}
-
-.speakbtn:hover {
- opacity: 0.2;
-    transform: translateY(20%);
-}
-
-#hmu #contactme {
-    position: relative;
-    left: 35rem;
-}
-/* fa fa social buttons */
-#socials {
-    position: relative;
-    padding: 10px;
-    left: 140px;
-    bottom: 184rem;
-}
-
- #about-me-title {
-   font-size: 4rem;
-   text-decoration: underline;
-   text-decoration-thickness: 8px;
-   text-decoration-color: #ffffff;
- /*  border-bottom: 10px solid #86CBED;*/
-
- }
-s
- #about-me-subtitle {
-    position: relative;
-    font-size: 1rem;
-    left: 68rem;
-    bottom: 24rem;
- }
-
-/* about me paragraph on index.html */
-#about-me #about-me-para {
-    
-    position: relative;
-    left: 25rem;
-    float: center;
-
-    bottom: 24rem;
-    white-space: nowrap;
-    color: black;
-    text-align: center;
-    word-break: break-all;
-
-}
-
-.about-link {
-    color:  #936ED4;
-
-}
-
-.about-link:hover {
-    opacity: 0.5;
-    
-}
-
-/* my name in the nav */
-.nav-bar p {
-  
-
-    position: relative;
-    bottom: -10px;
-    left: 10px;
-
-    font-family: 'Major Mono Display', sans-serif;
-    font-weight: bold;
-}
-
-
-
-/* the nav bar */
-.nav-bar a {
-
-    position: relative;
-    top: 10px;
-    float: right;
-
-
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-
-    /* color: hsl(72, 7%, 75%); */
-    color: darkslategrey;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-
-    padding: 14px 16px;
-
-}
-
-
-.nav-bar a:hover {
-    border-bottom: 2px solid gold;
-}
-
-
-.container {
-    display: flex;
-    flex-direction: column
-}
-
-/* The Section Titles */
-.container .sub-head {
-    font-family: 'Major Mono Display', sans-serif;
-    text-align: center;
-    
-}
-
-
-#about img {
-    position: relative;
-    bottom: 60px;
-    float: right;
-}
-
-#about p span {
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
-}
-
-#about p {
-    font-family: 'Quicksand', sans-serif;
-}
-
-/*#about .sm {
-    background-color: #00ff99;
-}*/
-
-.coding-languages {
-    font-size: 10px;
-}
-
-
-#skills .container {
-    display: flex;
-    flex-direction: row;
-
-
-}
-
-#skills .container .heart {
-    padding: 10px;
-    position: relative;
-    left: 250px;
-
-}
-
-#skills .container .heart:hover {
-    opacity: 0.3;
-}
-
-#skills .container .heart p {
-    position: relative;
-    bottom: 40px;
-    left: 30px;
-    font-size: 15px;
-
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 1000;
-}
-
-
-
-#projects .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 300px;
-}
-
-
-/* the individual projects */
-#projects .container .proj {
-    position: relative;
-    left: 100px;
-    top: 100px;
-
-    padding: 10px;
-
-}
-
-#projects .container .proj .wrapper {
-    position: relative;
-    padding: 0;
-    display:block;
-}
-#projects .container .proj .text {
-    font-size: 13px;
-    position: absolute;
-    top: 0;
-    color: black;
-    background-color:rgba(255,255,255,0.8);
-    width: 300px;
-    height: 200px;
-
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    z-index: 10;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-#projects .container .proj img {
-    object-fit: cover;
-}
-
-#projects .container .proj .text:hover {
-    opacity: 1;
-}
-.fa {
-    border-radius: 50%;
-
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-
-    font-size: 15px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-
-}
-
-.fa { 
-    background-color: #86CBED;
-    color: white;
-}
-
-.fa:hover { opacity: 0.5; }
-
-.intro-para {
-
-    position: absolute;
-
-    text-align: center;
-    padding: 10px;
-    top: 410px;
-    left: 320px;
-    /* margin-top: 100px;
-    margin-left: 400px; */
-}
-
-.intro-para h3 {
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap; /* keeps content on a single line */
-    margin: 0 auto;
-    letter-spacing: .15em;
-}
-
-.intro-para h3 {
-    position: relative;
-    bottom: 10px;
-    left: 160px;
-
-    font-family: 'Major Mono Display', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-
-    color: darkslategrey;
-
-    animation:
-        typing 2.5s steps(40, end),
-        blink-caret .90s step-end infinite;
-}
-
-
-.form {
-   /* margin: auto;*/
-    padding: 10px;
-
-    position: relative;
-    top: 30px;
-    left: 490px;
-
-    font-family: "Quicksand", sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-
-    text-decoration: none;
-
-}
-
-.form input {
-    display: block;
-
-    width: 375px;
-    height: 25px;
-    border-radius: 25px;
-
-}
-
-.form #messageLabel {
-    display: block;
-}
- /* the text box */
-.form #messageText {
-    position: "relative";
-    bottom: 120px;
-       border-radius: 25px;
-
-    width: 375px;
-    height: 125px;
-
-}
-
-#sendMsg {
-    display: block;
-    border: 1px solid gold;
-    width: 375px;
-    text-align: center;
-}
-
-
-    /* position: absolute;
-    right: 20px;
-    bottom: 20px;
-
-    border: solid 2px #EEB422;
-    border-radius: 15px;
-
-    color: grey;
-    font-family: "Mada", serif;
-
-    width: 100px;
-    height: 30px; */
-
-
-.form #message:focus, input:focus {
-    border: 1px solid #09C;
-}
-
-.form .btn {
-    background-color: #00ff99;
-    display: block;
- 
-    border-radius: 40px;
-    width: 150px;
-    height: 40px;
-    margin-top: 15px;
-    margin-left: 100px;
-
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    word-spacing: 30px;
-
-}
-
-.form .btn:hover {
-    background-color: transparent;
-}
-
-
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-
-    overflow: hidden;
-    border-right: .15em solid gold;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation:
-        typing 3.5s steps(50, end) infinite,
-        blink-caret .75s step-end infinite;
-}
-
-/* typewriter cursor effect */
-@keyframes blink-caret {
-    from, to {border-color: transparent}
-    50% {border-color: gold}
-
-}
-.show {
-    display: block;
-}
-
-footer { 
-    margin-top: 20rem;
-    font-family: 'Quicksand', sans; 
-   
+    .form .btn {
+        background-color: #00ff99;
+        display: block;
+     
+        border-radius: 40px;
+        width: 150px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 100px;
+
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        word-spacing: 30px;
+
+    }
+
+    .form .btn:hover {
+        background-color: transparent;
+    }
+
+
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange }
+
+        overflow: hidden;
+        border-right: .15em solid gold;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation:
+            typing 3.5s steps(50, end) infinite,
+            blink-caret .75s step-end infinite;
+    }
+
+    /* typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to {border-color: transparent}
+        50% {border-color: gold}
+
+    }
+    .show {
+        display: block;
+    }
+
+    footer { 
+        margin-top: 20rem;
+        font-family: 'Quicksand', sans; 
+       
+    }
 }

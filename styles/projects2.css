@@ -1,0 +1,81 @@
+html {
+    background-image: url("abbywebsitebg2.png");
+    font-size: 1em; 
+/*    background-size: cover;*/
+    overflow-x: hidden;
+  
+    
+
+}
+
+.grid {
+	display: grid;
+	justify-content: space-around;
+	grid-row-gap: 20px;
+	grid-column-gap: 10px;
+	padding: 10px;
+
+}
+
+.mywork {
+	text-align: center;
+	border: 5px solid grey;
+}
+h1, h3 {
+	font-family: 'Varela Round', sans-serif;
+	/*border: 2px solid grey;
+	background-color: grey;*/
+}
+
+p {
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+.box {
+	border: 1px solid grey;
+	background-color: pink;
+    box-shadow: 5px 10px #888888;
+}
+
+@media screen and (min-width: 1024px) {
+	.grid {
+		grid-row-start: 1
+		grid-row-end: 3;
+		grid-template-columns: auto auto auto;
+
+	}
+
+	.grid > .box {
+		width: 300px;
+		height: 260px;
+	/*	border: 1px solid grey;
+		background-color: pink;
+	    box-shadow: 5px 10px #888888;*/
+	}
+	.box:hover {
+		opacity: 0.4;
+	}
+
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+.grid {
+	flex-direction: column;
+}
+
+.grid > .box {
+	width: 290px;
+	height: 240px;
+	border: 1px solid grey;
+	background-color: pink;
+    box-shadow: 5px 10px #888888;
+}
+
+.box:hover {
+	opacity: 0.4;
+}
+
+
+}
