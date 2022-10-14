@@ -2,9 +2,6 @@ html {
     background-image: url("abbywebsitebg2.png");
     font-size: 1em; 
     overflow-x: hidden;
-  
-    
-
 }
 
 .small-font {
@@ -239,6 +236,8 @@ and (orientation: portrait) {
         font-family: 'Varela Round', sans-serif;
     }
 
+     #header .desktopnav { display: none; }
+
     /* PROJECTS (instead i have projectsarchive.html for mobile ) */
     #myprojects { display: none; }
 
@@ -384,6 +383,10 @@ and (orientation: portrait) {
 
     }
     /* desktop nav bar */
+    #header .mobilenav {
+        display: none;
+    }
+
     #header ul {
         display: fixed;
         margin: 0;
@@ -417,6 +420,39 @@ and (orientation: portrait) {
 
     .light:hover {
         opacity: 0.7;
+    }
+
+    #myprojects #projectsexp {
+        position: relative;
+        left: 200px;
+        background-color: pink;
+        box-shadow: 5px 10px #888888;
+        width: 1400px;
+        height: 500px;
+    }
+
+/*    #myprojects #projectsexp h3 {
+        display: inline-block;
+
+    }*/
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    #myprojects #projectsexp .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    #myprojects #projectsexp .row:after {
+      content: "";
+      display: table;
+      clear: both;
     }
 
     #myprojects .projectimg {
@@ -510,7 +546,7 @@ and (orientation: portrait) {
         position: relative;
         padding: 10px;
         left: 140px;
-        bottom: 184rem;
+        bottom: 2000px;
     }
 
      #about-me-title {
